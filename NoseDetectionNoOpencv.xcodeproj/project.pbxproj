@@ -25,10 +25,6 @@
 		DFC0C62318D77133004CFDD3 /* NoseDetectionNoOpencvTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC0C62218D77133004CFDD3 /* NoseDetectionNoOpencvTests.m */; };
 		DFC0C63618D771A5004CFDD3 /* AMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC0C63418D771A5004CFDD3 /* AMViewController.m */; };
 		DFC0C63718D771A5004CFDD3 /* AMViewController[3.5].xib in Resources */ = {isa = PBXBuildFile; fileRef = DFC0C63518D771A5004CFDD3 /* AMViewController[3.5].xib */; };
-		DFC0C64118D77473004CFDD3 /* gallery_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFC0C63D18D77473004CFDD3 /* gallery_icon@2x.png */; };
-		DFC0C64218D77473004CFDD3 /* gallery_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DFC0C63E18D77473004CFDD3 /* gallery_icon.png */; };
-		DFC0C64318D77473004CFDD3 /* camera_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFC0C63F18D77473004CFDD3 /* camera_icon@2x.png */; };
-		DFC0C64418D77473004CFDD3 /* camera_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DFC0C64018D77473004CFDD3 /* camera_icon.png */; };
 		DFC0C64618D77636004CFDD3 /* AMViewController[4].xib in Resources */ = {isa = PBXBuildFile; fileRef = DFC0C64518D77636004CFDD3 /* AMViewController[4].xib */; };
 		DFC0C64A18D78901004CFDD3 /* ExtendedCIDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC0C64918D78901004CFDD3 /* ExtendedCIDetector.m */; };
 		DFC0C64D18D78BF9004CFDD3 /* ExtendedCIFaceFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC0C64C18D78BF9004CFDD3 /* ExtendedCIFaceFeature.m */; };
@@ -70,10 +66,6 @@
 		DFC0C63318D771A5004CFDD3 /* AMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMViewController.h; sourceTree = "<group>"; };
 		DFC0C63418D771A5004CFDD3 /* AMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMViewController.m; sourceTree = "<group>"; };
 		DFC0C63518D771A5004CFDD3 /* AMViewController[3.5].xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "AMViewController[3.5].xib"; sourceTree = "<group>"; };
-		DFC0C63D18D77473004CFDD3 /* gallery_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gallery_icon@2x.png"; sourceTree = "<group>"; };
-		DFC0C63E18D77473004CFDD3 /* gallery_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gallery_icon.png; sourceTree = "<group>"; };
-		DFC0C63F18D77473004CFDD3 /* camera_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_icon@2x.png"; sourceTree = "<group>"; };
-		DFC0C64018D77473004CFDD3 /* camera_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_icon.png; sourceTree = "<group>"; };
 		DFC0C64518D77636004CFDD3 /* AMViewController[4].xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "AMViewController[4].xib"; sourceTree = "<group>"; };
 		DFC0C64818D78901004CFDD3 /* ExtendedCIDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtendedCIDetector.h; sourceTree = "<group>"; };
 		DFC0C64918D78901004CFDD3 /* ExtendedCIDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtendedCIDetector.m; sourceTree = "<group>"; };
@@ -212,10 +204,6 @@
 			isa = PBXGroup;
 			children = (
 				DF0DF30618D85828008C7E7F /* football.png */,
-				DFC0C63D18D77473004CFDD3 /* gallery_icon@2x.png */,
-				DFC0C63E18D77473004CFDD3 /* gallery_icon.png */,
-				DFC0C63F18D77473004CFDD3 /* camera_icon@2x.png */,
-				DFC0C64018D77473004CFDD3 /* camera_icon.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -308,13 +296,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFC0C64118D77473004CFDD3 /* gallery_icon@2x.png in Resources */,
 				DFC0C64618D77636004CFDD3 /* AMViewController[4].xib in Resources */,
-				DFC0C64418D77473004CFDD3 /* camera_icon.png in Resources */,
 				DFC0C61018D77133004CFDD3 /* Images.xcassets in Resources */,
-				DFC0C64318D77473004CFDD3 /* camera_icon@2x.png in Resources */,
 				DF0DF30C18D87069008C7E7F /* Icon@2x.png in Resources */,
-				DFC0C64218D77473004CFDD3 /* gallery_icon.png in Resources */,
 				DFC0C63718D771A5004CFDD3 /* AMViewController[3.5].xib in Resources */,
 				DF0DF30D18D87069008C7E7F /* icon.png in Resources */,
 				DF0DF30718D85828008C7E7F /* football.png in Resources */,
