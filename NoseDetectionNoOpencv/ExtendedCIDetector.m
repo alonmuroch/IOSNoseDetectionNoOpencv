@@ -12,16 +12,15 @@
 
 @implementation ExtendedCIDetector
 
--(id)init
+-(id)initWithType:(NSString *)type context:(CIContext *)context options:(NSDictionary *)options
 {
     if ( self = [super init] ) { }
     return self;
 }
 
--(ExtendedCIDetector*)detectorOfType:(NSString *)type context:(CIContext *)context options:(NSDictionary *)options
+-(void)detectorOfType:(NSString *)type context:(CIContext *)context options:(NSDictionary *)options
 {
     baseCIDetector = [CIDetector detectorOfType:type context:context options:options];
-    return self;
 }
 
 - (NSMutableArray *)extendedFeaturesInImage:(CIImage *)image

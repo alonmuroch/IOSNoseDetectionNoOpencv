@@ -14,7 +14,7 @@
     CIDetector *baseCIDetector;
 }
 
--(ExtendedCIDetector*)detectorOfType:(NSString *)type context:(CIContext *)context options:(NSDictionary *)options;
-- (NSMutableArray *)extendedFeaturesInImage:(CIImage *)image;
+-(void)detectorOfType:(NSString *)type context:(CIContext *)context options:(NSDictionary *)options;
+-(NSMutableArray *)extendedFeaturesInImage:(CIImage *)image;
 
 @end
