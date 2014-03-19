@@ -12,11 +12,7 @@
 
 @implementation ExtendedCIDetector
 
--(id)initWithType:(NSString *)type context:(CIContext *)context options:(NSDictionary *)options
-{
-    if ( self = [super init] ) { }
-    return self;
-}
+-(id)init { if ( self = [super init] ) { } return self; }
 
 -(void)detectorOfType:(NSString *)type context:(CIContext *)context options:(NSDictionary *)options
 {
@@ -37,7 +33,7 @@
 }
 
 /*********************************
- Find extended features methods
+    extended features methods
  *********************************/
 
 -(void)findNose:(ExtendedCIFaceFeature *)extFeatures

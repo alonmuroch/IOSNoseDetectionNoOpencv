@@ -59,13 +59,14 @@ static UIImagePickerController *mediaUI;
  ******************************/
 -(void)detectFaces
 {
-    if(!detector)
+    if(!detector){
         detector = [[ExtendedCIDetector alloc] init];
+        [detector detectorOfType:CIDetectorTypeFace
+                                     context:nil options:[NSDictionary dictionaryWithObject:CIDetectorAccuracyHigh forKey:CIDetectorAccuracy]];
+    }
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         [Utils debugLog:@"detecting faces ..."];
-        [detector detectorOfType:CIDetectorTypeFace
-                         context:nil options:[NSDictionary dictionaryWithObject:CIDetectorAccuracyHigh forKey:CIDetectorAccuracy]];
         NSArray* features = [detector extendedFeaturesInImage:[[CIImage alloc] initWithImage:originalImage]];
         [Utils debugLog:[NSString stringWithFormat:@"%d Faces Found",[features count]]];
          dispatch_async(dispatch_get_main_queue(), ^{

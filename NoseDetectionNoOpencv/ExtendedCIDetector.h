@@ -9,7 +9,7 @@
 #import <CoreImage/CoreImage.h>
 #import "ExtendedCIFaceFeature.h"
 
-@interface ExtendedCIDetector : CIDetector
+@interface ExtendedCIDetector : NSObject
 {
     CIDetector *baseCIDetector;
 }
